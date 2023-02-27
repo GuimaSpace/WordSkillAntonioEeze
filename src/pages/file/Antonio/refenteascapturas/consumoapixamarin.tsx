@@ -403,8 +403,6 @@ export default function consumiapi() {
       Usuarios {"{"} get; set; {"}"} = new ObservableCollection
         ();
         {"}"}
-      </user>
-    </user>
   </p>
   <pre>
     <code>
