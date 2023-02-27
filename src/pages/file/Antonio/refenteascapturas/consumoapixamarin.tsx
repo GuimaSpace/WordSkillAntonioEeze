@@ -344,11 +344,9 @@ export default function consumiapi() {
       <p>
         {" "}
         protected void SetProperty
-        <t>
           (ref T backingField, T value, [CallerMemberName] string propertyName =
           "")
           {"{"}
-        </t>
       </p>
       <pre>
         <code>
@@ -420,7 +418,7 @@ export default function consumiapi() {
   </pre>
   <p>
     public static class ApiService
-    <t>
+
       {" "}
       where T : class
       {"{"}
@@ -429,7 +427,7 @@ export default function consumiapi() {
       BaseAddress = new Uri("
       <a href="http://10.0.2.2:5500/api/">http://10.0.2.2:5500/api/</a>")
       {"}"};
-    </t>
+
   </p>
   <pre>
     <code>
