@@ -399,10 +399,8 @@ export default function consumiapi() {
     {"{"}
     // a diferença entre uma lista qualquer e o observable collection é que a
     observable collection tem hotreload public ObservableCollection
-    <user>
       {" "}
       Usuarios {"{"} get; set; {"}"} = new ObservableCollection
-      <user>
         ();
         {"}"}
       </user>
